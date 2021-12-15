@@ -19,7 +19,7 @@ app.use("/api/student/highest", highest);
 
 const start = async () => {
   await connect();
-  app.listen(8080, () => {
+  app.listen(2233, () => {
     console.log("Server Started");
   });
 };
